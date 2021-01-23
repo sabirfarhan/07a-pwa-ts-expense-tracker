@@ -1,10 +1,11 @@
 var cacheData = 'cache-v1';
 var urlsToCache = [
 
+  '/',
   '/static/css/main.ee35176f.chunk.css',
   '/static/js/2.da6b752d.chunk.js',
   '/static/js/main.90cdcc86.chunk.js',
-  'index.html'
+  '/index.html'
 
 ];
 
