@@ -11,7 +11,7 @@ import { GlobalProvider } from "./context/GlobalState";
 function App() {
   React.useEffect(() => {
     const msg = firebase.messaging();
-    msg.requestPermission().then(() => {
+    msg.Notification.requestPermission().then(() => {
       return msg.getToken();
     }).then((data) => {
       console.log("token", data)
