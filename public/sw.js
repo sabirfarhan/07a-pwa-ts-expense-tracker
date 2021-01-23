@@ -19,6 +19,8 @@ self.addEventListener('install', function (event) {
   );
 });
 
+self.addEventListener('fetch', function (event) {
+  if (navigator.onLine) {
     event.respondWith(
       caches.match(event.request)
         .then(function (response) {
