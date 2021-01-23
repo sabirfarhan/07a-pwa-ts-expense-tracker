@@ -16,4 +16,6 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+//FOR REGIRTER sw.js FILE IN PUBLIC FOLDER
+
 swRegistration();
