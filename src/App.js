@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import './App.css';
 import firebase from './firebase';
 import { Header } from './components/Header';
@@ -16,7 +17,7 @@ function App() {
     }).then((data) => {
       console.log("token", data)
     })
-  },[])
+  }, [])
   return (
     <GlobalProvider>
       <Header />
