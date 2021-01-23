@@ -10,7 +10,7 @@ import { AddTransaction } from './components/AddTransaction';
 import { GlobalProvider } from "./context/GlobalState";
 
 function App() {
-  React.useEffect(() => {
+  useEffect(() => {
     const msg = firebase.messaging();
     msg.Notification.requestPermission().then(() => {
       return msg.getToken();
